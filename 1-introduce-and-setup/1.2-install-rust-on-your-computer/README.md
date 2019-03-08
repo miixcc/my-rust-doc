@@ -1,6 +1,8 @@
 # 将Rust安装到你的电脑上
 ## rustup
-`rustup` 是一个管理 Rust 版本和相关工具的命令行工具，官方推荐使用它来完成Rust的安装。安装过程中需要网络连接，而且由于某些原因，你需要进行一些设置使其连接国内服务器以加速下载。
+`rustup` 是一个管理 Rust 版本和相关工具的命令行工具，官方推荐使用它来完成Rust的安装。
+
+安装过程中需要网络连接，而且由于某些原因，你需要进行一些设置使其连接国内镜像服务器以加速下载。
 
 ## Linux 和 macOS
 ### 设置中科大镜像源
@@ -10,11 +12,11 @@
 ```
 export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
 ```
-`RUSTUP_UPDATE_ROOT` (用于更新 `rustup` )
+`RUSTUP_UPDATE_ROOT` (用于更新 rustup )
 ```
 export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
 ```
-### 安装 `rustup` 和 Rust
+### 安装 rustup 和 Rust
 
 打开终端并输入如下命令：
 ```shell
@@ -45,7 +47,7 @@ curl https://sh.rustup.rs -sSf | sh
 
 ![advance](../../images/chapter1/1.2/advance.jpg)
 
-在系统变量处，选择 `新建变量` 。
+在系统变量处，选择 `新建` 。
 
 ![environment-variables](../../images/chapter1/1.2/environment-variables.jpg)
 
@@ -53,7 +55,7 @@ curl https://sh.rustup.rs -sSf | sh
 
 ![new-system-variable](../../images/chapter1/1.2/new-system-variable.jpg)
 
-继续点击 `新建变量` ,在 `变量名` 处和 `变量值` 处分别填入 `RUSTUP_UPDATE_ROOT`和 `https://mirrors.ustc.edu.cn/rust-static/rustup` ，点击 `确定` 。
+继续点击 `新建` ,在 `变量名` 处和 `变量值` 处分别填入 `RUSTUP_UPDATE_ROOT`和 `https://mirrors.ustc.edu.cn/rust-static/rustup` ，点击 `确定` 。
 
 ### 安装 Rust
 在[此处](https://win.rustup.rs)下载 `rustup` ，双击打开。此后按照其指引即可完成 Rust 的安装。
