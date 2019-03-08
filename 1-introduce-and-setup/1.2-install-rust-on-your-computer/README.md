@@ -55,7 +55,7 @@ curl https://sh.rustup.rs -sSf | sh
 
 ![new-system-variable](../../images/chapter1/1.2/new-system-variable.jpg)
 
-继续点击 `新建` ,在 `变量名` 处和 `变量值` 处分别填入 `RUSTUP_UPDATE_ROOT`和 `https://mirrors.ustc.edu.cn/rust-static/rustup` ，点击 `确定` 。
+继续点击 `新建` ，在 `变量名` 处和 `变量值` 处分别填入 `RUSTUP_UPDATE_ROOT`和 `https://mirrors.ustc.edu.cn/rust-static/rustup` ，点击 `确定` 。
 
 ### 安装 Rust
 在[此处](https://win.rustup.rs)下载 `rustup` ，双击打开。此后按照其指引即可完成 Rust 的安装。
